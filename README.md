@@ -14,10 +14,10 @@ docker run -p 8000:8000 nginx-print-headers </br>
 Use curl to access this application </br>
 
 curl http://localhost:8000/ -H "test: hi"
-GET / HTTP/1.1
-Host: localhost:8000
-User-Agent: curl/7.54.0
-Accept: */*
-test: hi
+GET / HTTP/1.1</br>
+Host: localhost:8000</br>
+User-Agent: curl/7.54.0 </br>
+Accept: */* </br>
+test: hi </br>
  
 
