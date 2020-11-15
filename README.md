@@ -1,6 +1,6 @@
 # nginx-print-headers
 
-Simple container application to print headers. request body and Method of incoming http requests. It uses Openresty base container and print the requests using echo modules
+Simple container application to print request Headers, Request body and HTTP Method of incoming http requests. It uses Openresty base container and print the requests using echo modules
 https://www.nginx.com/resources/wiki/modules/echo/
 
 # How to run ?
